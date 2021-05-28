@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-filenames = ['13.jpg','14.jpg','15.jpg'];
+filenames = ['13.jpg', '14.jpg', '15.jpg']
 
 def generate_dataset(filename):
     src = cv2.imread(filename, cv2.IMREAD_GRAYSCALE)  # 그레이 스케일로 변환
